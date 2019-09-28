@@ -1,5 +1,11 @@
 # Templates for structuring rules files
 
+## 'One file to rule them all'
+
+If there is a single rules-file that works for all versions of the library and across all shrinking tools and their versions, the single rules file can sit in the root of the library's rules folder.
+
+See Template example 0_SingleRulesFile
+
 ## Breaking changes between different library versions 
 If rules must be different for different versions of the library, the new rules should be included in a file with the version appended to the filename.
 eg. MyLibrary had a set of rules that worked for MyLibrary v1.0 all the way to v2.0.
