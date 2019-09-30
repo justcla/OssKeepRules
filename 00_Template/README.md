@@ -15,7 +15,8 @@ So there would be two files:
 
 See Template example [1_DifferentLibVersions](1_DifferentLibVersions)
 
-## Breaking changes between different tooling versions (ie. Proguard vs R8, different R8 versions)
+## Breaking changes between different tooling versions
+## (ie. Proguard vs R8, different R8 versions)
 
 If changes between tooling versions require different rules, the rules should be included in files located in separate directories, based on the various tools and their versions.
 
@@ -23,6 +24,6 @@ See Template example [2_DifferentShrinkingTools](2_DifferentShrinkingTools)
  
 ## Breaking changes between BOTH library versions and tooling versions
 
-If separate rules are required for different shrink tools/versions and also for different library versions, the rules should appear in different folders based on the tooling version, plus have different filename endings to denoted the difference in library versions.
+If separate rules are required for different shrink tools/versions and also for different library versions, the rules should appear in different folders based with the library version at the root and folders for tooling versions underneath.
 
-See Template example [3_DifferentToolsAndVersions](3_DifferentToolsAndVersions)
+See Template example [3_DifferentLibVersionsAndToolsVersions](3_DifferentLibVersionsAndToolsVersions)
