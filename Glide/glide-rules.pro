@@ -1,4 +1,4 @@
-# OkHttp Keep Rules
+# Glide Keep Rules
 # Taken from: https://proguard-rules.blogspot.com/2017/05/glide-proguard-rules.html
 
 # Date: 30-Sep-2019

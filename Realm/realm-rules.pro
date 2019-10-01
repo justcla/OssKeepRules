@@ -1,4 +1,4 @@
-# OkHttp Keep Rules
+# Realm Keep Rules
 # Taken from: https://proguard-rules.blogspot.com/2017/05/realm-proguard-rules.html
 
 # Date: 30-Sep-2019
